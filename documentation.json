@@ -1,0 +1,119 @@
+{
+  "name": "tonik",
+  "initialRoute": "introduction",
+  "colors": {
+    "light": {
+      "brand": "#797979"
+    },
+    "dark": {
+      "brand": "#9b9b9b"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "icon": "book",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "rocket",
+            "pages": [
+              {
+                "title": "Introduction",
+                "path": "introduction",
+                "icon": "home"
+              },
+              {
+                "title": "Getting Started",
+                "path": "getting-started",
+                "icon": "star"
+              }
+            ]
+          },
+          {
+            "group": "What We Do",
+            "icon": "layers",
+            "pages": [
+              {
+                "title": "Services",
+                "path": "services",
+                "icon": "file-text"
+              },
+              {
+                "title": "Partnerships",
+                "path": "partnerships",
+                "icon": "users"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "openapi": "openapi.yaml"
+          }
+        ]
+      },
+      {
+        "tab": "Help Center",
+        "icon": "help-circle",
+        "pages": [
+          {
+            "title": "Help Center",
+            "path": "help-center",
+            "icon": "home"
+          },
+          {
+            "group": "FAQs",
+            "icon": "help-circle",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "How Tonik Engages",
+                "path": "help-center/faq/how-tonik-engages"
+              }
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "icon": "alert-triangle",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "Project Delays",
+                "path": "help-center/troubleshooting/project-delays"
+              }
+            ]
+          },
+          {
+            "group": "Guides",
+            "icon": "book-open",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "Kickoff Workshop",
+                "path": "help-center/guides/kickoff-workshop"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "icon": "clock",
+        "pages": [
+          {
+            "title": "Release History",
+            "path": "changelog",
+            "icon": "history"
+          }
+        ]
+      }
+    ]
+  }
+}
