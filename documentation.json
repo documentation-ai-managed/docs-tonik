@@ -3,10 +3,10 @@
   "initialRoute": "introduction",
   "colors": {
     "light": {
-      "brand": "#797979"
+      "brand": "#000000"
     },
     "dark": {
-      "brand": "#9b9b9b"
+      "brand": "#000000"
     }
   },
   "navigation": {
@@ -61,5 +61,12 @@
         ]
       }
     ]
+  },
+  "template": "atlas",
+  "seo": {
+    "robots:index": false,
+    "robots:follow": false,
+    "sitemap:enabled": false,
+    "llms-txt:enabled": false
   }
 }
